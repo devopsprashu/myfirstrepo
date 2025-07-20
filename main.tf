@@ -15,3 +15,13 @@ resource "azurerm_resource_group" "example" {
   name     = "example"
   location = "West Europe"
 }
+
+resource "azurerm_resource_group" "demo" {
+  name     = "demo-rg"
+  location = "West Europe"
+}
+
+resource "azurerm_resource_group" "test" {
+  name     = "test-rg"
+  location = "West Europe"
+}
