@@ -30,3 +30,8 @@ resource "azurerm_resource_group" "dhondhu" {
   name     = "dhondhu-rg"
   location = "Central India"
 }
+
+resource "azurerm_resource_group" "abhilash-block" {
+  name     = "abhilash-rg"
+  location = "East Europe"
+}
