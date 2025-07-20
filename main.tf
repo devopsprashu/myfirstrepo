@@ -26,7 +26,7 @@ resource "azurerm_resource_group" "test" {
   location = "West Europe"
 }
 
-resource "azurerm_resource_group" "abhilash-block" {
-  name     = "abhilash-rg"
-  location = "East Europe"
+resource "azurerm_resource_group" "dhondhu" {
+  name     = "dhondhu-rg"
+  location = "Central India"
 }
